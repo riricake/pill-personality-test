@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Dongle&display=swap');
+
+* {
+    overscroll-behavior-block: contain;
+    overscroll-behavior: none;
+}
+
+body {
+    background-color: #FFF4E3;
+    height: 100svh;
+    width: 100svw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1, h2, h3 {
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #88584D;
+}
+
+body, body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#container {
+    height: 100svh;
+    width: 100%;
+    max-width: 400px;
+    overflow: visible;
+    justify-content: center;
+}
+
+.screen {
+    padding: 50px;
+    justify-content: center;
+}
+
+#title-screen::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%; 
+    background: #EAD8C3; 
+    z-index: -1;
+    overflow: hidden;
+}
+
+#question-area {
+    /* background: gray; */
+    height: 100%;
+    width: 100%;
+}
+
+#question-image {
+    object-fit: contain;
+    /* max-height: 100%; */
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 0;
+    /* display: none; */
+}
+
+#question-text {
+    font-size: 1.5rem;
+    line-height: 0.9;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* margin-bottom: -20px; */
+    /* display: none; */
+}
+
+#question-buttons-area {
+    /* display: none; */
+}
+
+#info-button, #question-button-1, #question-button-2, #think-faster {
+    font-size: 1.5rem;
+    line-height: 0.9;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 15px 30px 12px 30px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.alt-color {
+    color: #C68570;
+}
+
+.title-text {
+    color: #896555;
+    line-height: 1.2;
+    font-size: 2.1rem;
+}
+
+.description{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    line-height: 0.9;
+}
+
+.tiny-info{
+    line-height: 1;
+    margin-top: 30px;
+}
+
+button{
+    background-color: #896555;
+    color: #FFFFFF;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px 30px 8px 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    background-color: #CFB099;
+}
+
+button:active{
+    background-color: #CFB099;
+}
+
+.coiny-button{
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.15rem;
+}
+
+::selection{
+    background-color: #3A1E15;
+    color: #FFF4E3;
+}
+
+img, button{
+    user-select: none;
+}
+
+#questions-screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 75px;
+    /* background: black; */
+}
+
+#loading-bar {
+    width: 100%;
+    height: 2rem;
+    top: 25px;
+    left: 50px;
+    width: calc(100% - 100px);
+    position: absolute;
+}
+
+img {
+    max-width: 100%;
+}
+
+#chicken-think {
+    width: 130%;
+}
+
+#result-screen {
+    padding: 20px;
+    height: 100svh;
+    justify-content: flex-start;
+    padding-bottom: 2rem;
+    /* overscroll-behavior-block: auto;
+    overscroll-behavior: auto; */
+}
+
+#result-image {
+    margin-bottom: 5px;
+}
+
+#result-next-button {
+    margin-bottom: 20px;
+}
+
+#retry-button {
+    margin-top: 20px;
+}
+
+#socials {
+    font-size: 1.7rem;
+    color: #6D3B3B;
+}
+
+a {
+    text-decoration: none;
+    color: #BF7474;
+}
+
+.question-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#question-section-top {
+    /* background-color: red; */
+    width: 100%;
+    /* height: 100px; */
+    flex-grow: 0.5;
+    flex-shrink: 0;
+    justify-content: flex-end;
+}
+
+#question-section-middle {
+    /* background-color: blue; */
+    width: 100%;
+    height: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: center;
+}
+
+#question-section-bottom {
+    /* background-color: green; */
+    width: 100%;
+    height: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: flex-start;
+}
