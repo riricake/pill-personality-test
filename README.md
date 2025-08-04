@@ -2,10 +2,6 @@
 
 Join on an adventure with us and find out what your Drug Class Persona is!
 
-## Link to the Live Website
+Click [here](https://pill-personality-test.vercel.app/) or scan the QR code below to take the test!
 
-https://pill-personality-test.vercel.app/
-
-## QR Code
-
-<img src="./qr/qr.png" />
+<img src="./qr/qr.png" height="256px" />
