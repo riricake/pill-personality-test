@@ -17,157 +17,157 @@ const questionButtons = {
 
 const questions = [
     {
-        text: "You step into the pharmacy where you work as a pharmacist. You put your white coat on and... wait, why have all my co-workers and patients turned into animals?",
+        text: "You got a ticket and an invite from your mail saying “Welcome to Pill Paradise”, what do you do with it?",
         choices: [
             {
-                text: "Is this a dream? What is going on? I should stay calm and think about this.",
+                text: "I would love to, but I think I will need to plan this trip out first.",
                 score: "J"
             },
             {
-                text: "That's unexpected. I wonder if I am also an animal... let's see how this goes!",
+                text: "I want to go to this place! I wonder what it will be like!",
                 score: "P"
             }
         ]
     },
     {
-        text: "You are a little confused, but you still started your daily routine as usual. However, one of your coworkers started sobbing in the corner because she messed up a patient's prescriptions...",
+        text: "When you arrived, the place looked just like a giant factory. Everything is so shiny, and you can't wait to explore this place!",
         choices: [
             {
-                text: "Is this because she turned into a bunny? Are bunnies' brains capable of working as pharmacy technicians?",
+                text: "Fascinating! I wonder how the production line works? Maybe I can learn something about how pills are made here!",
                 score: "T"
             },
             {
-                text: "It's okay, she probably freaked out because we were all turned into animals suddenly. I should talk to her.",
+                text: "Whoa! It's beautiful in its way… I bet the people who made this put a lot of love and effort into it!",
                 score: "F"
             }
         ]
     },
     {
-        text: "Suddenly, all the prescription bottles started floating and the pills turned into animal-shaped pills!",
+        text: "You got escorted into the factory! You see a lot of tubes and pipes, and the tour guide asks you to drink a potion for “a better experience”... ",
         choices: [
             {
-                text: "Oh no! Let's check all those pills and remember each pill type to minimize any mix-ups!",
+                text: "Wait, what's in this potion? Is there an ingredient list? What if I am allergic to it?",
                 score: "S"
             },
             {
-                text: "I should stick to what I have to do and put them back. There is definitely something bigger coming!",
+                text: "A mystery potion? This is probably something important. I wonder if it makes me hallucinate or something…",
                 score: "N"
             }
         ]
     },
     {
-        text: "You see one shiny pill among all of those floating ones in front of you. It looks like a little star! You try to grab it and you realize that it smells like cotton candy...",
+        text: "Skeptical, but you still drank it. After all, we are all here for a better experience! Suddenly, you feel like you are floating… and boom! You turned into something really small… and you are being sent into the pipes!",
         choices: [
             {
-                text: "This is a little suspicious. I should store it in a separate container and try to understand it better.",
+                text: "Okay, this is not what I signed up for today. I hope there's at least a destination. Where exactly are we going??",
                 score: "J"
             },
             {
-                text: "I want to see what it tastes like! Will it make my body shine after I eat it?",
+                text: "I can float!! This is so cool. I wonder what kind of ride this is gonna be!",
                 score: "P"
             }
         ]
     },
     {
-        text: "A patient started asking you about their prescription. As you provide patient counseling, you notice that they are holding a wand...",
+        text: "The pipe sent you to a small room. The room is blowing hot air at you, and you feel super uncomfortable…",
         choices: [
             {
-                text: "Whoa! That's a cool-looking wand. Where did they get that? I wonder what the wand does...",
+                text: "Where is the hot air blowing from? How long am I going to be here?",
                 score: "S"
             },
             {
-                text: "Hey, is this the wizard that turned everyone into animals? Does that wand represent anything important? I better ask about it.",
+                text: "What is this? Am I being dried up? Is this some preparation for the next step?",
                 score: "N"
             }
         ]
     },
     {
-        text: "You got busy working... but hey, your daily delivery person is here! You signed the packages and opened them to check for the items inside. But wait a minute... there is nothing but mushrooms inside!",
+        text: "You saw a sign that says “Exit” and ran for it. Finally, you ran out of the room. The pipe kept pushing you forward, and now suddenly it is raining in the pipe!",
         choices: [
             {
-                text: "What in the world is going on? This is a pharmacy! I should contact the delivery company and ask them what happened.",
+                text: "Rain? Inside a pipe? Is this an error? Either way, I need to stay calm and figure this out.",
                 score: "T"
             },
             {
-                text: "That is so weird! This must be a mix-up. I should make sure everyone is okay and figure out what is going on.",
+                text: "Aw, it's raining? I don't mind if though, it's like a cleansing moment after all that heat!",
                 score: "F"
             }
         ]
     },
     {
-        text: "Mushrooms are invading your pharmacy! You hear cats meowing and dogs barking everywhere. Thankfully, a chicken showed up with a magical wand and saved you from mushroom disaster!",
+        text: "You got soaked, but the rain eventually stopped, and you are on your way to the next part of the journey.",
         choices: [
             {
-                text: "Chicken with a wand? It might lead me to why this is all happening! I need to follow it and see what happens.",
+                text: "Phew. That was way too much. By the way, how far have I traveled already?? When is this going to end?",
                 score: "S"
             },
             {
-                text: "It must be communicating with us about something important... I should investigate its intention.",
+                text: "Hmm… the water and the heat must've meant something is happening in the pipeline. I wonder what's coming next…",
                 score: "N"
             }
         ],
     },
     {
-        text: "The chicken tried to talk to you!",
+        text: "Following the pipe, you got sent to a room with bright light, and a giant piece of metal is coming right at you! On top of your head!",
         choices: [
             {
-                text: "Can we even communicate? What could it possibly want?",
+                text: "Oh no!! I need a second to process this. Maybe there's a way to escape this without being crushed?",
                 score: "I"
             },
             {
-                text: "The chicken wants to talk to me! This is so cool! I must listen to what it has to say.",
+                text: "Is this a challenge? Let's Goooo!! I'm gonna fight that thing off!",
                 score: "E"
             }
         ]
     },
     {
-        text: "The chicken started talking in its own language. You don't seem to understand it... but as it is talking, you notice that the star-shaped pill from earlier started glowing more and more!",
+        text: "You escaped the attack and ran out of the room. Finally, this pipe is coming to an end.",
         choices: [
             {
-                text: "I'd rather not bother trying to understand the chicken... it may be warning me about the glowing pill, so I'll stay back.",
+                text: "Finally… I will need to think about all these because what do you mean, I just went through all that?",
                 score: "I"
             },
             {
-                text: "I should take that pill! That may be my chance to learn chicken language!",
+                text: "That was so random and fun! I would want to do it again! Next time, I am bringing my friends with me!",
                 score: "E"
             }
         ]
     },
     {
-        text: "The chicken casts some spell on the pill and it turned into a potion! However, the potion breaks into pieces before it reaches you and splashes everywhere!",
+        text: "You got out and you looked at yourself in the mirror… You have turned into a pill! One that represents you!",
         choices: [
             {
-                text: "What is the potion gonna do to me? Am I going to turn into an animal too? This is so confusing!",
+                text: "Seriously? How do I turn back to normal later? I still have a life outside of this!",
                 score: "T"
             },
             {
-                text: "Oh no! Is the chicken ok? Is everyone okay? What is this potion going to do to us?",
+                text: "I'm a pill now? That's actually kind of interesting. I wonder who I'll help?",
                 score: "F"
             }
         ]
     },
     {
-        text: "A bright light shines into your eyes and you realize you are in your bedroom. Seems like the potion woke you up. That was quite an adventure!",
+        text: "The last step before the potion wears off is to choose the coating! What would you choose?",
         choices: [
             {
-                text: "Huh, I hope everything is normal now. I need some time to rest and process all of that... what's for breakfast?",
+                text: "Something soft and matte... maybe a pastel color. I want to be gentle, soothing, and not too flashy!",
                 score: "I"
             },
             {
-                text: "That was so cool! I wonder who the chicken was... I should tell my friends and ask them what they think!",
+                text: "The bright colors so everyone can see me! I want to be pretty even as a pill, please?",
                 score: "E"
             }
         ]
     },
     {
-        text: "You had a normal day at your local pharmacy. As you are clocking out, you notice that there is a little chicken sticker on the floor. You picked it up and it said: \"I will see you again!\". The chicken looks exactly the same as the one you saw earlier!",
+        text: "The potion finally wears off, and you are now back to yourself. Before going on with your day, you received a pill-shaped ornament of your own!",
         choices: [
             {
-                text: "That was wild. Whoever made this is weird. I will keep the sticker though.",
+                text: "Sure, I'll take it. It'll be a nice souvenir of a bizarre journey.",
                 score: "J"
             },
             {
-                text: "I wonder what will come next when we meet!",
+                text: "That was fun! I will definitely keep this forever, or I can turn it into a keychain!",
                 score: "P"
             }
         ]
