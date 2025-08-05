@@ -310,22 +310,22 @@ function calculateResult() {
 }
 
 const personalityMappings = {
-    "INTJ": "pig",
-    "INTP": "frog",
-    "ENTJ": "bear",
-    "ENTP": "fox",
-    "INFJ": "seal",
-    "INFP": "bunny",
-    "ENFJ": "duck",
-    "ENFP": "squirrel",
-    "ISTJ": "owl",
-    "ISFJ": "deer",
-    "ESTJ": "parrot",
-    "ESFJ": "elephant",
-    "ISTP": "cat",
-    "ISFP": "raccoon",
-    "ESTP": "lion",
-    "ESFP": "dog"
+    "INTJ": "anticoagulant",
+    "INTP": "immunosuppressant",
+    "ENTJ": "analgesic",
+    "ENTP": "antibiotic",
+    "INFJ": "statin",
+    "INFP": "corticosteroid",
+    "ENFJ": "antiviral",
+    "ENFP": "bronchodilator",
+    "ISTJ": "ssri",
+    "ISFJ": "antihistamine",
+    "ESTJ": "ppis",
+    "ESFJ": "diuretic",
+    "ISTP": "betablocker",
+    "ISFP": "anticonvulsant",
+    "ESTP": "hypoglycemic",
+    "ESFP": "antidepressant"
 }
 
 const resultNextButton = document.getElementById("result-next-button")
