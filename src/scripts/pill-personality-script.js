@@ -221,7 +221,7 @@ function nextQuestion() {
 
     if (currentQuestion >= questions.length) {
         calculateResult()
-        resultImage.src = `./assets/${personalityMappings[finalPersonalityScore]}_card.png`
+        resultImage.src = `./assets/result-pages/${personalityMappings[finalPersonalityScore]}.png`
         switchToScreen("result")
         return
     }

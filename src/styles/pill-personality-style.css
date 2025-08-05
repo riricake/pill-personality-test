@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Coiny&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
 
 /* * {
     overscroll-behavior-block: contain;
@@ -7,7 +7,7 @@
 } */
 
 body {
-    background-color: #FFF4E3;
+    background-color: #f7f3ef;
     height: 100svh;
     width: 100svw;
     align-items: center;
@@ -16,16 +16,16 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Coiny", system-ui;
+    font-family: "ADLaM Display", system-ui;
     font-weight: 400;
     font-style: normal;
 }
 
 p {
-    font-family: "Dongle", sans-serif;
-    font-weight: 400;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 200;
     font-style: normal;
-    color: #88584D;
+    color: #454545;
 }
 
 body, body * {
@@ -61,7 +61,7 @@ div {
     bottom: 0;
     width: 100%;
     height: 50%; 
-    background: #EAD8C3; 
+    background: #e0caca; 
     z-index: -1;
     overflow: hidden;
 }
@@ -83,8 +83,7 @@ div {
 }
 
 #question-text {
-    font-size: 1.5rem;
-    line-height: 0.9;
+    font-size: 1rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -98,11 +97,10 @@ div {
 }
 
 #info-button, #question-button-1, #question-button-2, #think-faster {
-    font-size: 1.5rem;
-    line-height: 0.9;
+    font-size: 1rem;
     margin-bottom: 20px;
     text-align: left;
-    padding: 15px 30px 12px 30px;
+    padding: 15px 30px 15px 30px;
 }
 
 .center-text {
@@ -110,59 +108,58 @@ div {
 }
 
 .alt-color {
-    color: #C68570;
+    color: #dd8177;
 }
 
 .title-text {
-    color: #896555;
+    color: #454545;
     line-height: 1.2;
     font-size: 2.1rem;
 }
 
 .description{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 20px;
-    line-height: 0.9;
 }
 
 .tiny-info{
-    line-height: 1;
+    font-size: 0.7rem;
     margin-top: 30px;
 }
 
-button{
-    background-color: #896555;
+button {
+    background-color: #dd8177;
     color: #FFFFFF;
-    font-family: "Dongle", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding: 15px 30px 8px 30px;
+    padding: 15px 30px 15px 30px;
     border-radius: 15px;
     border: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
 button:hover{
-    background-color: #CFB099;
+    background-color: #e9a8a1;
 }
 
 button:active{
-    background-color: #CFB099;
+    background-color: #e9a8a1;
 }
 
 .coiny-button{
-    font-family: "Coiny", system-ui;
+    font-family: "ADLaM Display", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 1.15rem;
 }
 
 ::selection{
-    background-color: #3A1E15;
-    color: #FFF4E3;
+    background-color: #561515;
+    color: #ffe3e3;
 }
 
 img, button{
