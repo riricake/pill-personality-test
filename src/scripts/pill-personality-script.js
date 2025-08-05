@@ -220,7 +220,9 @@ function nextQuestion() {
     currentQuestion++
 
     if (currentQuestion >= questions.length) {
-        switchToScreen("chickenThinking")
+        calculateResult()
+        resultImage.src = `./assets/${personalityMappings[finalPersonalityScore]}_card.png`
+        switchToScreen("result")
         return
     }
 
@@ -282,7 +284,6 @@ questionButtons.questionButton2.addEventListener("click", () => {
     nextQuestion()
 })
 
-const thinkFaster = document.getElementById("think-faster")
 const resultImage = document.getElementById("result-image")
 
 let finalPersonalityScore = ""
@@ -326,12 +327,6 @@ const personalityMappings = {
     "ESTP": "lion",
     "ESFP": "dog"
 }
-
-thinkFaster.addEventListener("click", () => {
-    calculateResult()
-    resultImage.src = `./assets/${personalityMappings[finalPersonalityScore]}_card.png`
-    switchToScreen("result")
-})
 
 const resultNextButton = document.getElementById("result-next-button")
 const retryButton = document.getElementById("retry-button")
